@@ -31,6 +31,7 @@ import { BidPageComponent } from './components/bid-page/bid-page.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
