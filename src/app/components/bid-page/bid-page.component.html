@@ -1,1 +1,80 @@
-<p>bid-page works!</p>
+<div class="container my-4">
+    <!-- Carousel wrapper -->
+    <div class="row">
+        <div class="col-8">
+            <gallery id="basic-test" imageSize="cover" fluid [items]="items"></gallery>
+        </div>
+        <div class="col-4">
+            <h2>Description</h2>
+            <div>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Condition:</th>
+                            <td>New</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Year:</th>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Color:</th>
+                            <td>Brown</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Size:</th>
+                            <td>Large</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-9">
+            <h1>The Forbidden Art</h1>
+            <small>Listing ID: 11223 | Item #: 12345</small>
+            <div>
+                <div class="row">
+                    <p class="col">Current Price</p>
+                    <p class="col">GHC 30,000</p>
+                </div>
+                <div class="row">
+                    <p class="col">Original Price</p>
+                    <p class="col">GHC 10,000</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="sumbit-bid">
+                <form class="">
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>Bid Amount</mat-label>
+                        <input type="number" matInput placeholder="Enter your bid amount">
+                    </mat-form-field>
+                    <button mat-fab extended color="primary" class="mt-3 ms-3">
+                        <mat-icon>favorite</mat-icon>
+                        Submit a Bid
+                    </button>
+                </form>
+            </div>
+
+            <hr>
+
+            <div>
+                <button mat-fab extended color="primary" class="mt-3 ms-3">
+                    <mat-icon>favorite</mat-icon>
+                    Buy now: GHC 10,000
+                </button>
+                <button mat-fab extended color="accent" class="mt-3 ms-3">
+                    <mat-icon>star</mat-icon>
+                    Add to wishlist
+                </button>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+<!-- Carousel wrapper -->

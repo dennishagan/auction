@@ -13,6 +13,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { ListingsPageComponent } from './components/listings-page/listings-page.component';
 import { MatCardModule } from '@angular/material/card';
 import { BidPageComponent } from './components/bid-page/bid-page.component';
+import { CountdownModule } from 'ngx-countdown';
+import { GALLERY_CONFIG, GalleryConfig, GalleryModule } from 'ng-gallery';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -31,9 +35,20 @@ import { BidPageComponent } from './components/bid-page/bid-page.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    CountdownModule,
+    GalleryModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: GALLERY_CONFIG,
+      useValue: {
+        autoHeight: true,
+        imageSize: 'cover'
+      } as GalleryConfig
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CountdownComponent } from 'ngx-countdown';
 
 @Component({
   selector: 'app-listings-page',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./listings-page.component.scss']
 })
 export class ListingsPageComponent {
+
 
 }
