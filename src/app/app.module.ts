@@ -16,6 +16,9 @@ import { BidPageComponent } from './components/bid-page/bid-page.component';
 import { CountdownModule } from 'ngx-countdown';
 import { GALLERY_CONFIG, GalleryConfig, GalleryModule } from 'ng-gallery';
 import {MatInputModule} from '@angular/material/input';
+import { FooterComponent } from './footer/footer.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 @NgModule({
@@ -26,6 +29,7 @@ import {MatInputModule} from '@angular/material/input';
     LoginComponent,
     ListingsPageComponent,
     BidPageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,8 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     CountdownModule,
     GalleryModule,
-    MatInputModule
+    MatInputModule,
+    MatSnackBarModule
   ],
   providers: [
     {
