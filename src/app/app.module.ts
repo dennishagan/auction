@@ -18,6 +18,7 @@ import { GALLERY_CONFIG, GalleryConfig, GalleryModule } from 'ng-gallery';
 import {MatInputModule} from '@angular/material/input';
 import { FooterComponent } from './footer/footer.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -32,6 +33,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     FooterComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
