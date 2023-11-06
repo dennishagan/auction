@@ -2,9 +2,12 @@
   <mat-toolbar color="primary" style="position: static">
   
       <mat-toolbar-row>
-        <div class="example-button-row">
-          <button mat-button routerLink="/listing">Listing</button>
-          <button mat-flat-button color="">Menu 2</button>
+        <div class="menu-row">
+          <button mat-button routerLink="/listing" routerLinkActive="is-active">Auctions</button>
+          <button mat-button routerLinkActive="is-active">Inventory</button>
+          <button mat-button routerLinkActive="is-active">Categories</button>
+          <button mat-button routerLinkActive="is-active">How it works</button>
+          <button mat-button routerLinkActive="is-active">About Us</button>
           <!-- <a mat-button href="https://www.google.com/" target="_blank">Link</a> -->
         </div>
         <!-- <span>Menu</span> -->

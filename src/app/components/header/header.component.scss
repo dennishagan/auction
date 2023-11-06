@@ -8,3 +8,12 @@
 .header {
   position: static !important;
 }
+
+.menu-row > button {
+  margin-right: 10px;
+}
+
+.is-active {
+  background-color: aliceblue;
+  color: black !important;
+}
