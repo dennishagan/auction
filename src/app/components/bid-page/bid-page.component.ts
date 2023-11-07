@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ActivatedRoute } from '@angular/router';
 import { GalleryItem, ImageItem } from 'ng-gallery';
+import { ApiService } from 'src/app/services/api.service';
 
 @Component({
   selector: 'app-bid-page',
@@ -8,8 +11,15 @@ import { GalleryItem, ImageItem } from 'ng-gallery';
 })
 export class BidPageComponent {
 
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private api: ApiService,
+    public snackbar: MatSnackBar) {}
+
+  itemData:any
   items: GalleryItem[] = [];
-  imageData = [
+  // SAMPLE IMAGE DATA
+  /* imageData = [
     {
       srcUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
       previewUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
@@ -26,12 +36,28 @@ export class BidPageComponent {
       srcUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
       previewUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
     },
-  ]
+  ] */
 
   ngOnInit() {
-    this.items = this.imageData.map(
-      (item) => new ImageItem({ src: item.srcUrl, thumb: item.previewUrl })
-    );
+
+
+    this.api.getItem(this.activatedRoute.snapshot.params['id']).subscribe((res:any) => {
+      console.log(res)
+      this.itemData = res
+
+      this.items = this.itemData.images.map(
+        (item:any) => new ImageItem({ src: item.srcUrl, thumb: item.previewUrl })
+      );
+    })
+
+  }
+
+  submitBid() {
+    this.snackbar.open('Bid successfully submitted', 'Close' , {
+      duration: 5000,
+      horizontalPosition: 'center',
+      verticalPosition: 'top'
+    })
   }
 
 }

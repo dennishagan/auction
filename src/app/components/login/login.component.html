@@ -13,22 +13,24 @@
                     <h4 class="mt-1 mb-5 pb-1">Auction at your doorstep</h4>
                   </div>
   
-                  <form>
+                  <form #loginF="ngForm" (ngSubmit)="login(loginF)">
                     <p>Please login to your account</p>
   
                     <div class="form-outline mb-4">
-                      <input type="email" id="form2Example11" class="form-control"
+                      <input type="email" id="form2Example11"  [(ngModel)]="loginForm.email" #email="ngModel" name="email" [class.is-invalid]="loginF.submitted && email.hasError('required')" required class="form-control"
                         placeholder="Enter email address" />
                       <label class="form-label" for="form2Example11">Email</label>
                     </div>
   
                     <div class="form-outline mb-4">
-                      <input type="password" id="form2Example22" class="form-control" placeholder="Enter password"/>
+                      <input type="password" id="form2Example22" [(ngModel)]="loginForm.password" #password="ngModel" name="password" [class.is-invalid]="loginF.submitted &&  password.hasError('required')" required class="form-control" placeholder="Enter password"/>
                       <label class="form-label" for="form2Example22">Password</label>
                     </div>
+
+                    <span class="error fw-bold" *ngIf="errorCode.length>0">{{errorCode}}</span>
   
                     <div class="text-center pt-1 mb-5 pb-1">
-                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Log
                         in</button>
                       <a class="text-muted" href="#!">Forgot password?</a>
                     </div>

@@ -2,14 +2,14 @@
     "users": [
         {
             "id": 1,
-            "firstname": "Fred",
-            "lastname": "Gabs",
-            "email": "fred@gmail.com",
+            "firstname": "User",
+            "lastname": "Admin",
+            "email": "user@gmail.com",
             "password": "password",
             "is_logged_in": true
         },
         {
-            "id": 1,
+            "id": 2,
             "firstname": "Fred",
             "lastname": "Gabs",
             "email": "fred@gmail.com",
@@ -94,23 +94,72 @@
     "item": [
         {
             "id": 1,
-            "item_name": "Toyota Camry",
-            "image_url": "http://www.example.com",
+            "item_name": "iPhone 11 Pro Max",
+            "images": [
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-1.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-1.png"
+                },
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/defaultimage/space-black-hero-zoom.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/defaultimage/space-black-hero-zoom.png"
+                },
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-2.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-2.png"
+                },
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-3.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-3.png"
+                },
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-4.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-4.png"
+                },
+                {
+                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-5.png",
+                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-5.png"
+                }
+              ],
             "listing_id": 112233,
-            "current_price": "30,000",
+            "current_price": "4,500",
             "original_price": "10,000",
             "description": {
                 "condition": "new",
                 "year": "2020",
-                "color": "green",
-                "size": "large"
+                "color": "Graphite",
+                "size": "Pro Max"
             },
             "bid_history": [
                 {
                     "bidder_name": "Lionel Messi",
-                    "date": "11/21/2023",
+                    "date": "10/21/2023",
                     "time": "18:45",
                     "unit_price": "3,000"
+                },
+                {
+                    "bidder_name": "Robbert Peters",
+                    "date": "10/22/2023",
+                    "time": "18:59",
+                    "unit_price": "3,100"
+                },
+                {
+                    "bidder_name": "David Appiah",
+                    "date": "10/22/2023",
+                    "time": "10:13",
+                    "unit_price": "3,900"
+                },
+                {
+                    "bidder_name": "Elvin Paul",
+                    "date": "10/24/2023",
+                    "time": "09:05",
+                    "unit_price": "4,000"
+                },
+                {
+                    "bidder_name": "Jordan Cobby",
+                    "date": "10/25/2023",
+                    "time": "17:55",
+                    "unit_price": "4,500"
                 }
             ]
         }

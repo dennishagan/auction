@@ -1,5 +1,10 @@
 .item-card {
     max-width: 300px;
+
+    img {
+      height: 250px;
+      width: 300px;
+    }
   }
   
   .example-header-image {
@@ -10,4 +15,9 @@
   .card-action {
     margin: 0 auto;
   }
+
+  // .card-image {
+  //   height: 300px;
+  //   width: 300px;
+  // }
   

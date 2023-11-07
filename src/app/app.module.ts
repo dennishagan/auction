@@ -15,10 +15,13 @@ import { MatCardModule } from '@angular/material/card';
 import { BidPageComponent } from './components/bid-page/bid-page.component';
 import { CountdownModule } from 'ngx-countdown';
 import { GALLERY_CONFIG, GalleryConfig, GalleryModule } from 'ng-gallery';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
 import { FooterComponent } from './footer/footer.component';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { MatMenuModule } from '@angular/material/menu';
+
 
 
 
@@ -45,7 +48,9 @@ import { HttpClientModule } from '@angular/common/http';
     CountdownModule,
     GalleryModule,
     MatInputModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    FormsModule,
+    MatMenuModule,
   ],
   providers: [
     {

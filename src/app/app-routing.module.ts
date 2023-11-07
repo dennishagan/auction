@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'login', component: LoginComponent },
   { path: 'listing', component: ListingsPageComponent },
-  { path: 'bid', component: BidPageComponent }
+  { path: 'bid/:id', component: BidPageComponent }
 
 ];
 

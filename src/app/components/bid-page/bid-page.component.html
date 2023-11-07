@@ -12,19 +12,19 @@
                         <tbody>
                             <tr>
                                 <th scope="row">Condition:</th>
-                                <td>New</td>
+                                <td>{{itemData.description.condition}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">Year:</th>
-                                <td>2023</td>
+                                <td>{{itemData.description.year}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">Color:</th>
-                                <td>Brown</td>
+                                <td>{{itemData.description.color}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">Size:</th>
-                                <td>Large</td>
+                                <td>{{itemData.description.size}}</td>
                             </tr>
                         </tbody>
                     </table>
@@ -41,7 +41,16 @@
                             <th>Unit Price (GHC)</th>
                         </thead>
                         <tbody>
-                            <tr class="text-center">
+                            <tr class="text-center" *ngFor="let bidder of itemData.bid_history">
+                                <td>
+                                    <img src="https://pixner.net/sbidu/main/assets/images/history/01.png" alt="" height="40px" style="border-radius: 50%;">
+                                    {{bidder.bidder_name}}
+                                </td>
+                                <td>{{bidder.date}}</td>
+                                <td>{{bidder.time}}</td>
+                                <td class="text-center">{{bidder.unit_price}}</td>
+                            </tr>
+                            <!-- <tr>
                                 <td>
                                     <img src="https://pixner.net/sbidu/main/assets/images/history/01.png" alt="" height="40px" style="border-radius: 50%;">
                                     Daniel Odai
@@ -49,34 +58,7 @@
                                 <td>11/21/2023</td>
                                 <td>18:38</td>
                                 <td class="text-center">3,000</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="https://pixner.net/sbidu/main/assets/images/history/01.png" alt="" height="40px" style="border-radius: 50%;">
-                                    Daniel Odai
-                                </td>
-                                <td>11/21/2023</td>
-                                <td>18:38</td>
-                                <td class="text-center">3,000</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="https://pixner.net/sbidu/main/assets/images/history/01.png" alt="" height="40px" style="border-radius: 50%;">
-                                    Daniel Odai
-                                </td>
-                                <td>11/21/2023</td>
-                                <td>18:38</td>
-                                <td class="text-center">3,000</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="https://pixner.net/sbidu/main/assets/images/history/01.png" alt="" height="40px" style="border-radius: 50%;">
-                                    Daniel Odai
-                                </td>
-                                <td>11/21/2023</td>
-                                <td>18:38</td>
-                                <td class="text-center">3,000</td>
-                            </tr>
+                            </tr> -->
                             
                         </tbody>
                     </table>
@@ -87,16 +69,16 @@
 
     <div class="row mt-3">
         <div class="col-9">
-            <h1>The Forbidden Art</h1>
-            <small>Listing ID: 11223 | Item #: 12345</small>
+            <h1>{{itemData.item_name}}</h1>
+            <small>Listing ID: {{itemData.listing_id}} | Item #: 12345</small>
             <div>
-                <div class="row">
+                <div class="row  fs-5">
                     <p class="col">Current Price</p>
-                    <p class="col">GHC 30,000</p>
+                    <p class="col">GHC {{itemData.current_price}}</p>
                 </div>
-                <div class="row">
+                <div class="row fs-5">
                     <p class="col">Original Price</p>
-                    <p class="col">GHC 10,000</p>
+                    <p class="col">GHC {{itemData.original_price}}</p>
                 </div>
             </div>
 
@@ -108,7 +90,7 @@
                         <mat-label>Bid Amount</mat-label>
                         <input type="number" matInput placeholder="Enter your bid amount">
                     </mat-form-field>
-                    <button mat-fab extended color="primary" class="mt-3 ms-3">
+                    <button mat-fab extended color="primary" class="mt-3 ms-3" (click)="submitBid()">
                         <mat-icon>favorite</mat-icon>
                         Submit a Bid
                     </button>
