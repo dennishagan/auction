@@ -10,7 +10,9 @@ export class ApiService {
 
   login(data:any) {}
 
-  getListing() {}
+  getListing() {
+    let url = `http://localhost:3000/listing`
+  }
 
   getItem(id:string) {}
 

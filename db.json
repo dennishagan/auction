@@ -20,11 +20,75 @@
     "listings": [
         {
             "id": 1,
-            "item_name": "some comment",
-            "image_url": "http://www.example.com",
+            "item_name": "iPhone 11 Pro Max",
+            "image_url": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
+            "current_bid": "3,000",
+            "buy_price": "7,000",
+            "number_of_bids": 12
+        },
+        {
+            "id": 2,
+            "item_name": "Nike Jordan 3",
+            "image_url": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/b5a90b99-e0bc-44df-83e6-725b0aaeedc5/air-jordan-3-fire-red-dn3707-160-release-date.jpg",
+            "current_bid": "52.00",
+            "buy_price": "1,500",
+            "number_of_bids": 4
+        },
+        {
+            "id": 3,
+            "item_name": "M2 MacBook Pro 2022",
+            "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509652_sd.jpg;maxHeight=640;maxWidth=550",
             "current_bid": "10,000",
             "buy_price": "40,000",
+            "number_of_bids": 53
+        },
+        {
+            "id": 4,
+            "item_name": "Apple Airpods Pro 2",
+            "image_url": "https://i5.walmartimages.com/seo/Restored-Apple-AirPods-Pro-White-with-Magsafe-Charging-Case-In-Ear-Headphones-MLWK3AM-A-Refurbished_4543ff7c-a0cb-47e9-957c-a4e2c1b95dde.58d0d4155438bf7dbc0a54390ab5a52c.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "current_bid": "10,000",
+            "buy_price": "40,000",
+            "number_of_bids": 2
+        },
+        {
+            "id": 5,
+            "item_name": "iPhone 14",
+            "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-midnight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1661026579503",
+            "current_bid": "10,000",
+            "buy_price": "40,000",
+            "number_of_bids": 8
+        },
+        {
+            "id": 6,
+            "item_name": "2021 Toyota Camry",
+            "image_url": "https://pictures.dealer.com/a/autonationdrive/1542/546c5cc4d14dc36801f297820463344ax.jpg?impolicy=downsize&w=568",
+            "current_bid": "100,000",
+            "buy_price": "250,000",
             "number_of_bids": 25
+        },
+        {
+            "id": 7,
+            "item_name": "Wall Art",
+            "image_url": "https://m.media-amazon.com/images/I/71xsAgj0WiL.jpg",
+            "current_bid": "5,000",
+            "buy_price": "4,000",
+            "number_of_bids": 17
+        },
+        {
+            "id": 8,
+            "item_name": "Airpods 3rd Generation",
+            "image_url": "https://i5.walmartimages.com/seo/Apple-AirPods-3-White-In-Ear-Headphones-MPNY3AM-A_6776a422-11af-4dfc-8aef-40c0b4ea71ac.c0c2f32a1eb6c72eb28582436061d4e6.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+            "current_bid": "900",
+            "buy_price": "2,000",
+            "number_of_bids": 34
+        },
+        {
+            "id": 9,
+            "item_name": "2020 Honda Accord",
+            "image_url": "https://www.cnet.com/a/img/resize/844e9f7579225fc1e113b2537bcec271e59bb608/hub/2019/09/18/f75fa0a5-6708-4264-b19d-3219b26a42b1/promo.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "current_bid": "80,000",
+            "buy_price": "150,000",
+            "number_of_bids": 87
         }
     ],
     "item": [
