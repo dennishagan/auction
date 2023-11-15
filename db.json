@@ -20,119 +20,115 @@
     "listings": [
         {
             "id": 1,
-            "item_name": "iPhone 11 Pro Max",
-            "image_url": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-11-Pro_Colors_091019_big.jpg.large_2x.jpg",
-            "current_bid": "3,000",
+            "item_name": "SFMOMA",
+            "image_url": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/06/15163936/07_View-of-the-exhibition-Pacita-Abad-A-Million-Things-to-Say-scaled.jpg",
+            "current_bid": "3,500",
             "buy_price": "7,000",
             "number_of_bids": 12
         },
         {
             "id": 2,
-            "item_name": "Nike Jordan 3",
-            "image_url": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/b5a90b99-e0bc-44df-83e6-725b0aaeedc5/air-jordan-3-fire-red-dn3707-160-release-date.jpg",
-            "current_bid": "52.00",
-            "buy_price": "1,500",
-            "number_of_bids": 4
+            "item_name": "Silverlens",
+            "image_url": "https://www.silverlensgalleries.com/assets/artists/pacita-abad/selected-exhibitions/PACITA%20Frieze.jpg",
+            "current_bid": "4,500",
+            "buy_price": "17,000",
+            "number_of_bids": 9
         },
         {
             "id": 3,
-            "item_name": "M2 MacBook Pro 2022",
-            "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509652_sd.jpg;maxHeight=640;maxWidth=550",
-            "current_bid": "10,000",
-            "buy_price": "40,000",
-            "number_of_bids": 53
-        },
-        {
-            "id": 4,
-            "item_name": "Apple Airpods Pro 2",
-            "image_url": "https://i5.walmartimages.com/seo/Restored-Apple-AirPods-Pro-White-with-Magsafe-Charging-Case-In-Ear-Headphones-MLWK3AM-A-Refurbished_4543ff7c-a0cb-47e9-957c-a4e2c1b95dde.58d0d4155438bf7dbc0a54390ab5a52c.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
-            "current_bid": "10,000",
-            "buy_price": "40,000",
+            "item_name": "Pacita Abad",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaTLtIa_KT_5dgn3By890oM6OmEKaRyepgSk-w-Ben3PtMUtXy8dlJUW3gNPWSGFVAHA&usqp=CAU",
+            "current_bid": "4,500",
+            "buy_price": "9,000",
             "number_of_bids": 2
         },
         {
-            "id": 5,
-            "item_name": "iPhone 14",
-            "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-midnight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1661026579503",
-            "current_bid": "10,000",
-            "buy_price": "40,000",
-            "number_of_bids": 8
-        },
-        {
-            "id": 6,
-            "item_name": "2021 Toyota Camry",
-            "image_url": "https://pictures.dealer.com/a/autonationdrive/1542/546c5cc4d14dc36801f297820463344ax.jpg?impolicy=downsize&w=568",
-            "current_bid": "100,000",
-            "buy_price": "250,000",
-            "number_of_bids": 25
-        },
-        {
-            "id": 7,
-            "item_name": "Wall Art",
-            "image_url": "https://m.media-amazon.com/images/I/71xsAgj0WiL.jpg",
-            "current_bid": "5,000",
-            "buy_price": "4,000",
+            "id": 4,
+            "item_name": "Pinellas",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6McfluJ15LmA8l_McYCmO_-2C9t0XElRBF7OPmOskrAUEdOQ_E42g6RjWSD6R0ktvTyM&usqp=CAU",
+            "current_bid": "3,500",
+            "buy_price": "6,000",
             "number_of_bids": 17
         },
         {
-            "id": 8,
-            "item_name": "Airpods 3rd Generation",
-            "image_url": "https://i5.walmartimages.com/seo/Apple-AirPods-3-White-In-Ear-Headphones-MPNY3AM-A_6776a422-11af-4dfc-8aef-40c0b4ea71ac.c0c2f32a1eb6c72eb28582436061d4e6.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
-            "current_bid": "900",
+            "id": 5,
+            "item_name": "Constant Storm",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG4ws7k2T4SRIAQB9Ais6_vQJ_6plkcRtBzO80bLZ4he_ikUWWWWgYJfZEiV5BB-Ua6CU&usqp=CAU",
+            "current_bid": "1,100",
             "buy_price": "2,000",
-            "number_of_bids": 34
+            "number_of_bids": 31
         },
         {
-            "id": 9,
-            "item_name": "2020 Honda Accord",
-            "image_url": "https://www.cnet.com/a/img/resize/844e9f7579225fc1e113b2537bcec271e59bb608/hub/2019/09/18/f75fa0a5-6708-4264-b19d-3219b26a42b1/promo.jpg?auto=webp&fit=crop&height=675&width=1200",
-            "current_bid": "80,000",
-            "buy_price": "150,000",
-            "number_of_bids": 87
+            "id": 6,
+            "item_name": "Angel Otero",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKC7-bs89TiTmahFKfZRrCDWpRl8imvbX3Ic0Ljdl_csOwwEvx0DeckFCnfs-kBKlXBo&usqp=CAU",
+            "current_bid": "520",
+            "buy_price": "6,500",
+            "number_of_bids": 2
+        },
+        {
+            "id": 7,
+            "item_name": "Peering into the silence",
+            "image_url": "https://images.saatchiart.com/saatchi/817577/art/7344525/6413731-EXFSTLXN-7.jpg",
+            "current_bid": "360",
+            "buy_price": "500",
+            "number_of_bids": 8
+        },
+        {
+            "id": 8,
+            "item_name": "Cara Painting",
+            "image_url": "https://images.saatchiart.com/saatchi/817577/art/7541425/6610177-HSC00001-7.jpg",
+            "current_bid": "986",
+            "buy_price": "1,500",
+            "number_of_bids": 14
         }
     ],
     "item": [
         {
             "id": 1,
-            "item_name": "iPhone 11 Pro Max",
+            "item_name": "SFMOMA",
             "images": [
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-1.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-1.png"
+                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/06/15163936/07_View-of-the-exhibition-Pacita-Abad-A-Million-Things-to-Say-1024x640.jpg",
+                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/06/15163936/07_View-of-the-exhibition-Pacita-Abad-A-Million-Things-to-Say-1024x640.jpg"
                 },
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/defaultimage/space-black-hero-zoom.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/defaultimage/space-black-hero-zoom.png"
+                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2018/05/17092052/Mayhew-AAA.jpg",
+                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2018/05/17092052/Mayhew-AAA.jpg"
                 },
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-2.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-2.png"
+                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2021/03/04142927/Tunnel.jpg",
+                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2021/03/04142927/Tunnel.jpg"
                 },
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-3.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-3.png"
+                    "srcUrl": "https://res.cloudinary.com/the-contemporary-jewish-museum/image/upload/c_fill,cs_srgb,dpr_2.0,f_jpg,h_220,q_70,w_300/v1/exhibit/0024-SFMoMA-BeyondBelief-130626",
+                    "previewUrl": "https://res.cloudinary.com/the-contemporary-jewish-museum/image/upload/c_fill,cs_srgb,dpr_2.0,f_jpg,h_220,q_70,w_300/v1/exhibit/0024-SFMoMA-BeyondBelief-130626"
                 },
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-4.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-4.png"
+                    "srcUrl": "https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2021/06/16053702/468d1b75-3d14-44e0-a1c9-01cf0d7224b1-1.jpg",
+                    "previewUrl": "https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2021/06/16053702/468d1b75-3d14-44e0-a1c9-01cf0d7224b1-1.jpg"
                 },
                 {
-                  "srcUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-5.png",
-                  "previewUrl": "https://www.att.com/scmsassets/global/devices/phones/apple/apple-iphone-14-pro-max/carousel/spaceblack/spaceblack-5.png"
+                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/07/21165536/ex2023pa_ins_008_resized.jpg",
+                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/07/21165536/ex2023pa_ins_008_resized.jpg"
+                },
+                {
+                    "srcUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/138/sfmoma-pacita3.jpg",
+                    "previewUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/138/sfmoma-pacita3.jpg"
                 }
-              ],
+            ],
             "listing_id": 112233,
             "current_price": "4,500",
-            "original_price": "10,000",
+            "original_price": "7,000",
             "description": {
                 "condition": "new",
                 "year": "2020",
-                "color": "Graphite",
-                "size": "Pro Max"
+                "color": "Multi colored",
+                "size": "Medium"
             },
             "bid_history": [
                 {
-                    "bidder_name": "Lionel Messi",
+                    "bidder_name": "Kwame Bonsu",
                     "date": "10/21/2023",
                     "time": "18:45",
                     "unit_price": "3,000"
