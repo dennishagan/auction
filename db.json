@@ -89,32 +89,16 @@
             "item_name": "SFMOMA",
             "images": [
                 {
-                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/06/15163936/07_View-of-the-exhibition-Pacita-Abad-A-Million-Things-to-Say-1024x640.jpg",
-                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/06/15163936/07_View-of-the-exhibition-Pacita-Abad-A-Million-Things-to-Say-1024x640.jpg"
+                    "srcUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/57/_dsc0319.jpg",
+                    "previewUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/57/_dsc0319.jpg"
                 },
                 {
-                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2018/05/17092052/Mayhew-AAA.jpg",
-                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2018/05/17092052/Mayhew-AAA.jpg"
+                    "srcUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7s2vxXqpifrmWmejvSKFX23edHhBqchRlq1DVZl0jW9bnZeIY8H4hsxVT9VkJ0K3UFow&usqp=CAU",
+                    "previewUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7s2vxXqpifrmWmejvSKFX23edHhBqchRlq1DVZl0jW9bnZeIY8H4hsxVT9VkJ0K3UFow&usqp=CAU"
                 },
                 {
-                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2021/03/04142927/Tunnel.jpg",
-                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2021/03/04142927/Tunnel.jpg"
-                },
-                {
-                    "srcUrl": "https://res.cloudinary.com/the-contemporary-jewish-museum/image/upload/c_fill,cs_srgb,dpr_2.0,f_jpg,h_220,q_70,w_300/v1/exhibit/0024-SFMoMA-BeyondBelief-130626",
-                    "previewUrl": "https://res.cloudinary.com/the-contemporary-jewish-museum/image/upload/c_fill,cs_srgb,dpr_2.0,f_jpg,h_220,q_70,w_300/v1/exhibit/0024-SFMoMA-BeyondBelief-130626"
-                },
-                {
-                    "srcUrl": "https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2021/06/16053702/468d1b75-3d14-44e0-a1c9-01cf0d7224b1-1.jpg",
-                    "previewUrl": "https://offloadmedia.feverup.com/secretsanfrancisco.com/wp-content/uploads/2021/06/16053702/468d1b75-3d14-44e0-a1c9-01cf0d7224b1-1.jpg"
-                },
-                {
-                    "srcUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/07/21165536/ex2023pa_ins_008_resized.jpg",
-                    "previewUrl": "https://sfmoma-media-dev.s3.us-west-1.amazonaws.com/www-media/2023/07/21165536/ex2023pa_ins_008_resized.jpg"
-                },
-                {
-                    "srcUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/138/sfmoma-pacita3.jpg",
-                    "previewUrl": "https://artlogic-res.cloudinary.com/w_1500,h_1500,c_limit,f_auto,fl_lossy,q_auto/ws-artlogicwebsite0164/usr/exhibitions/images/exhibitions/138/sfmoma-pacita3.jpg"
+                    "srcUrl": "https://images.e-flux-systems.com/PacitaAbad_20180403-0978_Edited.jpg,1600",
+                    "previewUrl": "https://images.e-flux-systems.com/PacitaAbad_20180403-0978_Edited.jpg,1600"
                 }
             ],
             "listing_id": 112233,
